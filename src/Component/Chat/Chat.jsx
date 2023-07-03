@@ -69,7 +69,7 @@ const Chat = () => {
     <div className="chatPage">
             <div className="chatContainer h-[620px] w-[70%] max-[800px]:h-screen max-[800px]:w-screen ">
                 <div className="header h-20 bg-teal-700 flex justify-between items-center px-14 max-[470px]:px-6">
-                    <h2 className='text-white text-3xl  font-semibold max-[300px]:text-2xl'> online<span className=' text-violet-300'> Chat</span></h2>
+                    <h2 className='text-white text-3xl  font-semibold max-[300px]:text-2xl'>Online<span className=' text-violet-300'> Chat</span></h2>
                     <a href="/" className='cursor-pointer h-12 w-12 rounded-full flex justify-center items-center hover:bg-[#0000002c]'> <img src='/img/close.png' alt="Close"  className='h-5 '/></a>
                 </div>
                 <ReactScrollToBottom className="chatBox h-[74%] max-[600px]:h-[79%] max-[470px]:h-[80%] max-[800px]:h-[80%]">

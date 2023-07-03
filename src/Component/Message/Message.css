@@ -5,9 +5,9 @@
     border-radius: 0.5vmax;
     display: inline-block;
     clear: both;
-    font-size: 1.2vmax;
+    /* font-size: 1.2vmax; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .right{
@@ -23,3 +23,9 @@
     background-color: white;
     
 }
+@media screen and (min-width: 800px) {
+    .messageBox{
+        font-size: 1.2vmax;
+    }
+    
+} 
