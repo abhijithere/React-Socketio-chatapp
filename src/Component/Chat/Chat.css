@@ -1,0 +1,72 @@
+.chatPage{
+    background-image: url('../../../public/img/pxfuel.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-image: url('../../../public/img/whitechat.png');
+    background-color: white;
+}
+
+
+
+
+.header img{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.header>img:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
+
+/*
+.inputBox{
+    
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput{
+    
+    width: 80%;
+    border: none;
+    padding: 2vmax;
+    box-sizing: border-box;
+    background-color: white;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vmax;
+    border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+}
+
+
+.sendBtn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 21%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sendBtn>img{
+    width: 2.6vmax;
+    filter:brightness(100) invert();
+    transition: all 0.3s;
+}
+.sendBtn:hover{
+    background-color: rgb(156, 13, 42);
+} 
+.sendBtn:hover img{
+    transform: translateX(10px);
+} */

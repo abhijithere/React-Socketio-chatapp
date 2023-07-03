@@ -1,0 +1,27 @@
+
+.JoinPage{
+    background-image: url('../../../public/img/pxfuel.jpg');
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.JoinContainer > h1{
+    color: white;
+    font-family: "Roboto";
+}
+
+ #joinInput{
+    border: none;
+    outline: none;
+    margin: 2vmax;
+    box-sizing: border-box;
+}
+
